@@ -15,6 +15,8 @@ export class BigCardComponent implements OnInit {
   cardDescription:string = '';
   @Input()
   photoAlt:string = '';
+  @Input()
+  id:string = '0';
 
   constructor() { }
 
